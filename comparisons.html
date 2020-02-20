@@ -5,6 +5,33 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
-    
+    <!--Create navbar-->
+  <nav class="navbar navbar-expand navbar-light bg-light">
+    <a class="navbar-brand navbar_top_box mr-auto" href="index.html" style = "background-color: green">Spotify Analytics</a>
+    </button>
+    <div class="navbar" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Plots
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="WebVisualizations/visualization_acousticness.html">Acousticness</a>
+            <a class="dropdown-item" href="WebVisualizations/visualization_danceability.html">Danceability</a>
+            <a class="dropdown-item" href="WebVisualizations/visualization_duration.html">Duration</a>
+            <a class="dropdown-item" href="WebVisualizations/visualization_loudness.html">Loudness</a>
+            <a class="dropdown-item" href="WebVisualizations/visualization_tempo.html">Tempo</a>
+            <a class="dropdown-item" href="WebVisualizations/visualization_valence.html">Valence</a>
+          </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Comparisons.html">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="data.html">Data</a>
+          </li>
+      </ul>
+    </div>
+  </nav>
 </body>
 </html>
