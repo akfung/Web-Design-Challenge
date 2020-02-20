@@ -1,3 +1,10 @@
 .primary_title {
     color: green;
 }
+
+.navbar_top_box {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
